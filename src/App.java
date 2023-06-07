@@ -71,7 +71,7 @@ public class App {
             int tripCount = 1;
 
             for (String delivery : drone.getDeliveries()) {
-                System.out.println("--> Viagem #" + tripCount);
+                System.out.println("--> Trip #" + tripCount);
                 System.out.println("------> Location: " + delivery);
                 tripCount++;
             }
